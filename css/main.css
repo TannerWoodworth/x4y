@@ -1,0 +1,50 @@
+html{
+    font-size:100%;
+    background-color:#eee;
+    font-family: 'Lato', sans-serif;
+    color:#666;
+}
+body{
+    width:80%;
+    padding:1rem;
+    margin: 0 auto;
+    max-width:1000px;
+    background-color: #fff;
+}
+header{
+    border-bottom:1px solid #eee;
+}
+h1{
+    font-size:2.5rem;
+    font-weight:400;
+}
+main p{
+    font-size: 4.5rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.x{
+    font-weight: bold;
+    color:coral;
+}
+.y{ 
+    font-weight: bold;
+    color:coral;
+}
+.button{
+    background-color:cornflowerblue;
+    text-align: center;
+    padding:1rem;
+    border-radius: 10px;
+    width:20%;
+    min-width:100px;
+    margin:0 auto;
+    font-size: 1.4em;
+}
+@media screen and (min-width: 460px) {
+
+}
