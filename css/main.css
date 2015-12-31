@@ -23,6 +23,9 @@ main p{
     margin: 2rem auto;
     text-align: center;
 }
+footer p{
+    text-align: center;
+}
 a{
     text-decoration: none;
     color:#fff;
