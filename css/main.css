@@ -30,16 +30,25 @@ a{
     text-decoration: none;
     color:#fff;
 }
-.x{
-    font-weight: bold;
-    color:coral;
+footer a{
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color:#aaa;
 }
-.y{ 
-    font-weight: bold;
-    color:coral;
+footer a:hover{
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease; 
+    color:#ff7f50;
 }
-.button{
-    background-color:cornflowerblue;
+.x, .y{
+    font-weight: bold;
+    color:#ff7f50;
+}
+.button a{
+    display: block;
+    background-color:#6495ed;
     text-align: center;
     padding:1rem;
     border-radius: 10px;
@@ -47,6 +56,12 @@ a{
     min-width:100px;
     margin:0 auto;
     font-size: 1.4em;
+}
+.button a:hover{
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease; 
+    background-color: #2E456D;
 }
 @media screen and (min-width: 460px) {
 
